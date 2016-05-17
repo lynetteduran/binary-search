@@ -5,12 +5,14 @@ function iterativeSearch(array, target){
     var stepCounter = 1;
     for(var i = 0; i < array.length; i++){
         if (array[i] != target) {
-            stepCounter++;
+            stepCounter++; 
         } else if (array[i] === target ){
             console.log(target + " is at index " + i);
             console.log(stepCounter + " steps");
-        } else if ( array.indexOf(target) === -1 ){
-            console.log("Value not found");
+        } 
+        if (array.indexOf(target) === -1){
+            console.log(stepCounter + " steps");
+            console.log(target + " not found");
         }
     }        
 }
