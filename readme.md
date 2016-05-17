@@ -131,14 +131,12 @@ var primeNumbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,
     523, 541];
 
 // string arrays to sort:
-var array = ["Jan", "Feb", "mar", "Apr", "May", "Jun", "jul",
+var months = ["Jan", "Feb", "mar", "Apr", "May", "Jun", "jul",
     "Aug", "Sept", "Oct", "Nov", "Dec"];
 
-var wdi_29_students = ["Wayne", "Vanessa", "Camila", "Min", "Mike Cheng", 
+var wdi29Students = ["Wayne", "Vanessa", "Camila", "Min", "Mike Cheng", 
 "Michael N", "Emilio", "Matt L.", "Kabah", "Jen", "Valerie", "Kate", "Mike Cruz", 
 "Matt S.", "Sam", "Ben", "Anthony", "Jim"];
-
-
 ```
 
 
